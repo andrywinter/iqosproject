@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+@font-face {
+    font-family: 'Edgar-Regular';
+    src:url('../fonts/edgar-regular.woff') format('woff'),
+        url('../fonts/edgar-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +37,7 @@ img {
 /* main style */
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Edgar-Regular';
     font-size: 20px;
     line-height: 30px;
     font-weight: 400;
@@ -122,6 +130,8 @@ body {
 }
 
 .hero-link {
+    font-family: 'Poppins', sans-serif;
+
     display: block;
     width: 125px;
     padding: 16px 0 16px 0;
@@ -129,7 +139,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    color: #005AD5;
+    color: #bdc0c2;
     background: #fff;
     border-radius: 10px;
 }
